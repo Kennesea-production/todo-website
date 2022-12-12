@@ -13,9 +13,9 @@
           <li class="bgnv nav-item px-2 justify-content-center ">
             <a class="nvbr nav-link active"  href="#">Home</a>
           </li>
-          <li class="bgnvv nav-item  px-2 justify-content-center">
+          {{-- <li class="bgnvv nav-item  px-2 justify-content-center">
             <a class="nvbr nav-link" href="#">About</a>
-          </li>
+          </li> --}}
           <li class="bgnvv nav-item  px-2 justify-content-center">
             <a class="nvbr nav-link" href="/register">Register</a>
           </li>
@@ -24,7 +24,7 @@
     </div>
   </nav>
 
-<div class="backg">
+<div class="backg" >
     <img class="img1" src="{{asset('assets/img/bg.jpg')}}" alt="">
     <img class="img2" src="{{asset('assets/img/paper.png')}}" alt="">
     <img class="img3" src="{{asset('assets/img/book.png')}}" alt="">
@@ -39,7 +39,7 @@
     </div>
 </div>
 
-<div class="container-fluid vh-100 " style="background-color:white "></div>
+{{-- <div class="container-fluid vh-100 " style="background-color:white "></div> --}}
 
 
 

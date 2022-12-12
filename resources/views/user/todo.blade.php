@@ -22,7 +22,7 @@
             @endif
         <div class="d-flex justify-content-center align-item-center ">
             <div class="d-flex flex-column mt-2 mb-4">
-                <div class="h5">My Todo's</div>
+                <div class="h5 text-center mb-3">My Todo's</div>
                 <p class="text-muted text-justify">
                     Don't be lazy! here is activities you have to do!
                 </p>
@@ -73,8 +73,8 @@
                     </p>
                 </div>
                 <div class="ml-md-4 ml-0">
-                    <span><a href="{{route('delete', $todo->id)}}" style="color: rgb(239, 239, 239)"><i class="fa-solid fa-trash"></i></a></span>
-                    <span><a href="{{route('edit', $todo->id)}}" style="color: rgb(239, 239, 239)"><i class="fa-solid fa-pen-to-square"></i></a></span>
+                    <span><a href="{{route('delete', $todo->id)}}" style="color: rgb(239, 239, 239)"><i class="fa-solid fa-trash me-3"></i></a></span>
+                    <span><a href="{{route('edit', $todo->id)}}" style="color: rgb(239, 239, 239)"><i class="fa-solid fa-pen-to-square me-3"></i></a></span>
                 </div>
             </div>
             @endforeach
