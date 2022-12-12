@@ -48,13 +48,13 @@
             <div class="comment d-flex align-items-start justify-content-between">
                 <div class="mr-2">
                         @if ($todo['status'] == 1)
-                        <span class="fa-solid fa-bookmark text-secondary btn"></span>
+                        <span class="fa-regular fa-bookmark bmark ms-3"></span>
                         {{-- kalau statusnya selain dari 1, baru mjuncul icon checklist yang bisa diclick bbuat update ke complated 11--}}
                         @else 
                              <form action="/complated/{{$todo['id']}}"method="POST">
                                @csrf
                                @method('PATCH')
-                               <button type="submit" class="fas fa-circle-check fa-1x text-primary btn"></button>
+                               <button type="submit" class="fa-solid fa-circle-check chk ms-2"></button>
                              </form>
                         @endif
                     {{-- <label class="option">

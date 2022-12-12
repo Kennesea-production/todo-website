@@ -147,7 +147,8 @@ p.text-muted{
     height: 0;
     width: 0;
 }
-.checkmark {
+
+/* .checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -156,6 +157,16 @@ p.text-muted{
     background-color: rgb(33, 33, 33);
     border: 1px solid #ddd;
     border-radius: 5px;
+} */
+.bmark{
+    color: white;
+    height: 25px;
+    width: 25px;
+}
+.chk{
+    color: white;
+    border: none;
+    background-color: transparent;
 }
 .option:hover input ~ .checkmark {
     background-color: #f1f1f1;
